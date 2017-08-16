@@ -63,7 +63,10 @@ Review the handouts of the last lecture (what is basically a summary of the pres
    - CSS - The :first-child Pseudo-class
 
 ## Required Tasks
-Read the materials presented above. We will do a quiz during one of the next lessons where you can prove that you read the given texts carefully.
+- Read the materials presented above.
+- Extend your cheat sheet as you go along the material.
+
+We will do a quiz during one of the next lessons where you can prove that you read the given texts carefully.
 
 ## Extra Credits
 Give brief answers to the questions given in the file [SampleQuestions.md](SampleQuestions.md). When you make a pull request you will get feedback on your proposed answers and some extra points on the first quiz.
