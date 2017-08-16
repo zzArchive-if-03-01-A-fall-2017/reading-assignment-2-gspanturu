@@ -65,6 +65,7 @@ Review the handouts of the last lecture (what is basically a summary of the pres
 ## Required Tasks
 - Read the materials presented above.
 - Extend your cheat sheet as you go along the material.
+- Add the cheat sheet to your assignment repository and make a pull request.
 
 We will do a quiz during one of the next lessons where you can prove that you read the given texts carefully.
 
