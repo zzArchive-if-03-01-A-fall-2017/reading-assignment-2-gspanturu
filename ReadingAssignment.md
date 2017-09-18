@@ -63,9 +63,10 @@ Review the handouts of the last lecture (what is basically a summary of the pres
    - CSS - The :first-child Pseudo-class
 
 ## Required Tasks
-- Read the materials presented above.
-- Extend your cheat sheet as you go along the material.
-- Add the cheat sheet to your assignment repository and make a pull request.
+1. Read the materials presented above.
+2. Extend your cheat sheet as you go along the material.
+3. Add the cheat sheet to your assignment repository
+5. Make a pull request.
 
 We will do a quiz during one of the next lessons where you can prove that you read the given texts carefully.
 
