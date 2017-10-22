@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CheatSheet2.css">
+    <title>CheatSheet 2 - Panturu Gloria Sara</title>
+  </head>
+  <body>
+<h3>Compoments of html elements</h3>
+<p> start tag - end tag + content in between  </p>
+<p> the html element
+  &lt;  html /&gt;
+  defines the whole document.
+</p>
+<p>h1, h2, h3, h4, h5, h6 - heading</p>
+<h3>Void elements</h3>
+<p>Void elements: elements with no content</p>
+<p>Example: &lt;br/&gt;</p>
+<h3>Attributes</h3>
+<p>All HTML elements can have attributes</p>
+<p>Attributes provide additional information about an element</p>
+<p>They're always specified in the start tag</p>
+<p>They usually come in name/value pairs: name="value"</p>
+<table class="center">
+<thead>
+<tr><th colspan= "6"> Attributes</th></tr>
+<tr>
+  <th>href</th><th>image</th>
+  <th>width and height</th>
+  <th>style</th>
+  <th>lang</th>
+  <th>title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>&lt;  a href = "http://facebook.com"> This is a fb link &lt;/a/&gt;</td>
+  <td>&lt; img src="image.jpg"/&gt;</td>
+  <td>&lt; img src="image.jpg" width="500" height="600"/&gt;</td>
+  <td>&lt;p style="color:red">I am a paragraph &lt;/p&gt;</td>
+  <td>&lt; html lang="en-US" &gt;</td>
+  <td>(added to the &lt; p &gt; element, displayed when the mouse is over the p)</td>
+</tr>
+<tr>
+  <td></td>
+  <td>alt(alternative text, if image can't be desplayed): &lt; img src="image.jpg" alt="An image"/&gt;</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>&lt; p title="I'm a tooltip"&gt; This is a paragraph &lt;/p&gt;</td>
+</tr>
+</tbody>
+</table>
+<h3>DOCTYPE</h3>
+<p>&lt; !DOCTYPE html &gt;</p>
+<h3>Elements</h3>
+<p>meta info in head: &lt;meta charset="UTF-8"&gt;</p>
+<p>&lt;link rel="stylesheet" href="CheatSheet2.css"&gt;</p>
+<p>Comment: &lt;!-- This would be a comment --&gt;</p>
+<p>Title: title in a browser tab</p>
+<h1>CSS rule</h1>
+<p>selector - declaration</p>
+<p> h1 {property:value; property:value;}</p>
+<p><strong>-element selector</strong>(e.g. paragraph): p{property: value;}</p>
+<p><strong>-grouping selector</strong>(e.g p, h1, h2): p, h1, h2{property:value;}</p>
+<p>-CSS Comment: /*Comment */ </p>
+<h3><strong>CSS Colors</strong></h3>
+<section>
+  <p>Color names:</p>
+  <ul>
+    <li>Tomato</li>
+    <li>Orange</li>
+    <li>DodgerBlue</li>
+    <li>Gray</li>
+  </ul>
+  <p>HTML supports <strong>140</strong> color names</p>
+  <p>Example background: &lt;h1 style="background-color:DodgerBlue;">Hello World&lt;/h1 &gt;</p>
+  <p>Example text: &lt;h1 style="color:DodgerBlue;">Hello World&lt;/h1 &gt;</p>
+  <h3><strong>HEX Value: #rrggbb</strong></h3>
+  <p>-red: #ff0000</p>
+  <p>Red is set to its highest value, the others at the lowest value (00)</p>
+  <p>-black: #000000</p>
+  <p>-white:#ffffff</p>
+</section>
+<section>
+  <table class="center">
+    <thead>
+      <tr><th colspan= "4"> Backgrounds</th></tr>
+      <tr><th>Background color of an element</th><th>Background-Image of an element</th><th>Background-Image Repeat Horizontally/Vertically</th><th>Fixed position of background image</th><th></th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><em>-background-color:lightblue;</em></td><td><em>-background-image: url("paper.gif");</td><td>-background-image, then -> <em>background-repeat: repeat-x;</em>  ->x for horizontal, y for vertical</td><td>-background-image, background-repeat, <em>background-position: right top; background-attachment:fixed;  </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<br>
+<br>
+<section>
+  <table class="center">
+    <thead>
+      <tr><th colspan= "4"> Text</th></tr>
+      <tr><th>color: blue;</th><th>text-align:center;</th><th>text-decoration:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td> </td><td>It can be left/right/center/justify/</td><td>text-decoration: none, to remove underlined links</td></tr>
+      <tr><td>color: #ff0000</td><td></td><td>text-decoration: overline; line-through; underline;</td></tr>
+    </tbody>
+  </table>
+  <br>
+  <p>p.uppercase/lowercase/capitalize {</p>
+  <p><em><strong>text-transform:</strong> uppercase/ lowercase/ capitalize;</em></p>
+  <p>}</p>
+</section>
+<section>
+  <h3>Fonts</h3>
+  <p>Serif: fonts have small lines at the ends on some characters</p>
+  <p>sans-serif: sans=without, no lines</p>
+  <p><em>font-family:</em> should hold some font names as an option if the browser doesn't support the 1st font </p>
+  <p>Example:</p>
+  <p><em>p {</em></p>
+    <p>font-family: "Times New Roman", Times, serif;</p>
+    <p>}</p>
+    <h4>Font Style:</h4>
+    <p>p.normal/italic{</p>
+      <p>font-style: normal/italic;</p>
+    <h4>Font Size</h4>
+    <p>-absolute size:</p>
+    <ul>
+      <li> sets the text to a specified size </li>
+      <li>user can't change the text size</li>
+      <li>useful when the size of the output is known</li>
+    </ul>
+    <p><strong>font-size: small;</strong></p>
+    <p>-relative size:</p>
+    <ul>
+      <li>size set relative to surrounding elements</li>
+      <li>user can change the text size</li>
+    </ul>
+    <p><strong>font-size: smaller;</strong></p>
+    <h4>Font Weight</h4>
+    <p>p.normal/thick {</p>
+      <p>font-weight: normal/bold;</p>
+      <p>}</p>
+</section>
+  </body>
+</html>
